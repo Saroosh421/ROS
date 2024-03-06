@@ -1,0 +1,5 @@
+<launch>
+    <param name = "wheel_radius" type = "double" value = "0.155" />
+    <node name = "rpm_pub_node" pkg = "my_robot_tutorial" type = "rpm_pub.py" />
+    <node name = "speed_cal_sub_node" pkg = "my_robot_tutorial" type = "speed_cal.py" />
+</launch>
